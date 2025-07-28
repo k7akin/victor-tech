@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(245, 124, 245, 0.642);
+}
+.container{
+    background-color: #fff;
+    width: 1150px;
+    height: 550px;
+    margin-top: 5px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+h2{
+    font-size: 40px;
+    padding-left: 100px;
+}
+/* .content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+} */
+
+.hours{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+    
+ul li{
+    display: block;
+    gap: 90px;
+    
+
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+.month{
+    font-size: 20px;
+    padding-left: 110px;
+}    
+
+.monthlist{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+
+.bar1{
+    width: 30px;
+    height: 150px;
+    background-color: rgba(129, 52, 129, 0.539);
+    border-radius: 10px;
+    margin-left:140px ;
+    margin-top: -190px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+}
+@keyframes one{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-20px);}
+    75%{transform: translateY(5px);}
+    100%{transform: translateY(0px);}
+}
+.bar2{
+    width: 30px;
+    height: 150px;
+    background-color: rgba(49, 229, 49, 0.703);
+    border-radius: 10px;
+    margin-left: 230px ;
+    margin-top: -200px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0.1s;
+}
+
+.bar3{
+    width: 30px;
+    height: 150px;
+    background-color:rgba(218, 157, 137, 0.893);
+    border-radius: 10px;
+    margin-left: 320px ;
+    margin-top: -210px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+.bar4{
+    width: 30px;
+    height: 150px;
+    background-color: rgba(50, 50, 95, 0.902);
+    border-radius: 10px;
+    margin-left: 420px ;
+    margin-top: -200px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+}
+.bar5{
+    width: 30px;
+    height: 210px;
+    background-color: rgba(49, 229, 49, 0.703);
+    border-radius: 10px;
+    margin-left: 510px ;
+    margin-top: -270px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+.bar6{
+    width: 30px;
+    height: 230px;
+    background-color: rgb(239, 168, 37);
+    border-radius: 10px;
+    margin-left: 600px ;
+    margin-top: -285px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+.bar7{
+    width: 30px;
+    height: 150px;
+    background-color: rgba(129, 52, 129, 0.539);
+    border-radius: 10px;
+    margin-left: 690px ;
+    margin-top: -200px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+.bar8{
+    width: 30px;
+    height: 210px;
+    background-color:  rgba(50, 50, 95, 0.902);
+    border-radius: 10px;
+    margin-left: 780px ;
+    margin-top: -270px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0.7s;
+}
+.bar9{
+    width: 30px;
+    height: 230px;
+    background-color: rgba(49, 229, 49, 0.703);
+    border-radius: 10px;
+    margin-left: 870px ;
+    margin-top: -285px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+}
+.bar10{
+    width: 30px;
+    height: 150px;
+    background-color: rgba(218, 157, 137, 0.893);
+    border-radius: 10px;
+    margin-left: 960px ;
+    margin-top: -200px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 0.9s;
+}
+.bar11{
+    width: 30px;
+    height: 230px;
+    background-color:  rgb(239, 168, 37);
+    border-radius: 10px;
+    margin-left: 1050px ;
+    margin-top: -285px;
+    animation-name:one ;
+    animation-timing-function: bounce ;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 530px;
+        height: auto;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        border-radius: 10px;
+        padding-bottom: 20px;
+    }
+    h1, h2 {
+        font-size: 24px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .hours, .month {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+    ul {
+        gap: 25px;
+        padding-left: 10px;
+    }
+    .monthlist {
+        display: flex;
+        font-size: 10px;
+        gap: 20px;
+        padding-left: 70px;
+        padding-top: 10px;
+    }
+    .bar1 {
+        width: 18px;
+        margin-left: 65px;
+        margin-top: -100px;
+        height: 70px ;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+    .bar2 {
+        width: 18px;
+        margin-left: 105px;
+        margin-top: -100px;
+        height: 70px;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+    .bar3 {
+        width: 18px;
+        margin-left: 145px;
+        margin-top: -100px;
+        height: 70px;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+    .bar4 {
+        width: 18px;
+        margin-left: 185px;
+        margin-top: -100px;
+        height: 70px;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+    .bar5 {
+        width: 18px;
+        margin-left: 225px;
+        margin-top: -120px;
+        height: 100px;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+    .bar6 {
+        width: 18px;
+        margin-left: 265px;
+        margin-top: -130px;
+        height: 110px;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+    .bar7 {
+        width: 18px;
+        margin-left: 305px;
+        margin-top: -100px;
+        height: 70px;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+    .bar8 {
+        width: 18px;
+        margin-left: 345px;
+        margin-top: -120px;
+        height: 100px;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+    .bar9 {
+        width: 18px;
+        margin-left: 385px;
+        margin-top: -130px;
+        height: 110px;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+    .bar10 {
+        width: 18px;
+        margin-left: 425px;
+        margin-top: -100px;
+        height: 70px;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+    .bar11 {
+        width: 18px;
+        margin-left: 465px;
+        margin-top: -145px;
+        height: 110px;
+        border-radius: 6px;
+        animation-duration: 1.2s;
+    }
+
+   
+    
+
+
+  
