@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: black;
+}
+.container{
+    background-color: yellow;
+    width: 400px;
+    height: 100px;
+    margin: 150px auto;
+    margin-top: ;
+}
+.container::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-image:linear-gradient(to right, #9fdcf9, green, yellow);
+    border-radius: 200px;
+    margin-top: -90px;
+    margin-left: -450px;  
+}
+
+.container::after{
+    content: " ";
+    display: block;
+    position:absolute;
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to right, rgba(243, 220, 17, 0.79), rgba(236, 62, 15, 0.868));
+    border-radius:200px ;
+    margin-top: 90px;
+    margin-left: 500px; 
+    z-index: -1;  
+}
+.glass{
+    position: absolute;
+    background-color:#ffffff27;
+    width: 70%;
+    height: 300px;   
+   z-index: 1;
+   top: 150px;
+   left: 150px;
+   backdrop-filter:blur(30px);
+   box-shadow: 20px 10px 10px  black ;
+}
+.logo{
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 10px;
+    /* animation: infinite;
+    animation-duration: 2s;
+    animation-name: part;
+    animation-timing-function: bounce; */
+}
+
+/* @keyframes part{
+    10%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+} */
+
+
+ul{
+    margin-left: 500px;
+    margin-top: -35PX;
+}
+    
+
+ul li{
+    display: inline-block;
+    margin-left: 50px;
+    transition: all 1s;
+    cursor: pointer;
+}
+ul li:hover{
+    color: red;
+}
+
+
+.hero-menu{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 50%;
+    height: 250px;
+    z-index: 1;
+    display: flex;
+}
+h1{ 
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.616);
+}
+p{
+    font-size: 20px;
+    color: rgba(174, 169, 169, 0.511);
+}
+button{
+    background-color: #ffffff27;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: rgba(18, 18, 18, 0.616);    
+}
+.photo{
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+}
+img{
+    margin-top: -50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+}
